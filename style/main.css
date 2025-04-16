@@ -19,7 +19,8 @@ html {
 body,
 h1,
 h2,
-p {
+p, 
+ul {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
@@ -241,6 +242,7 @@ p {
 
 .our_capabilities {
     height: 446px;
+    margin-bottom: 115px;
 }
 
 .our_capabilities-flex {
@@ -320,17 +322,18 @@ p {
     padding-bottom: 35px;
 }
 
-.touch {
-    min-height: 499px;
-    background-image: url(../img/touch__bg.png);
-}
-
 .touch__wrapper {
-    padding-top: 236px;
+    height: 499px;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../img/touch__bg.png);
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding-top: 120px;
 }
 
 .touch__h2 {
@@ -355,23 +358,100 @@ p {
 }
 
 .newsettlers {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
     background-color: rgb(23, 24, 25);
+    height: 100px;
 }
 
 .newsettlers__wrapper {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding-top: 29px;
 }
 
 .newsettlers__h2 {
+    padding-top: 4px;
     color: rgb(255, 255, 255);
     font-size: 22px;
     font-weight: 700;
     line-height: -1px;
     letter-spacing: 0.85px;
     text-align: center;
+    margin-right: 70px;
 }
 
-.newsettlers__input {}
-
-.button {}
+.newsettlers__input {
+    width: 250px;
+    color: rgb(72, 85, 91);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    text-align: left;
+    padding-left: 15px;
+}
+.footer {
+    background-color: black;
+    height: 300px;
+    color: #FFFFFF;
+}
+.footer__wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+.company {
+    width: 250px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+}
+.h4 {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0.85px;
+    
+}
+.contact h4 {
+    margin-bottom: 19px;
+}
+.footer__logo {
+    align-self: center;
+    justify-self: flex-start;
+}
+.company__text {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+.links {
+    width: 262px;
+    height: 150px;
+}
+.links__wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.links ul {
+    list-style-type: none;
+}
+.links li {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.85px;
+    text-align: left;
+}
+.contact {
+    width: 151px;
+    height: 158px;
+}
+.contact__text {
+}
+.socials {
+}
